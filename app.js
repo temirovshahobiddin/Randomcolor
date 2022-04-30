@@ -40,13 +40,13 @@ function randomGradientColor() {
     let gradiensColorRgba6 = Math.floor(Math.random() * 255 + 1)
     let gradiensColorRgba7 = Math.floor(Math.random() * 255 + 1)
     let gradiensColorRgba8 = Math.floor(Math.random() * 999 + 1)
-    let gradiensdegree = Math.floor(Math.random() * 100 + 1)
-    let gradiensdegree1 = Math.floor(Math.random() * 100 + 1)
-    let gradiensdegree2 = Math.floor(Math.random() * 100 + 1)
-    let gradiensdegree3 = Math.floor(Math.random() * 100 + 1)
+    let gradiensdegree = Math.floor(Math.random() * 9 + 1)
+    let gradiensdegree1 = Math.floor(Math.random() * 9 + 1)
+    let gradiensdegree2 = Math.floor(Math.random() * 9 + 1)
+    let gradiensdegree3 = Math.floor(Math.random() * 9 + 1)
 
-    let gradientColor = `linear-gradient(${gradiensdegree}deg, rgba(${gradiensColorRgba1}, ${gradiensColorRgba2}, ${gradiensColorRgba3}, 0.${gradiensColorRgba4}) ${gradiensdegree1}%, rgba(${gradiensColorRgba5}, ${gradiensColorRgba6}, ${gradiensColorRgba7}, 0.${gradiensColorRgba8}) ${gradiensdegree2}%)`
-    /* linear-gradient(90deg, rgba(2,0,36,1) 0deg, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+    let gradientColor = `linear-gradient(9${gradiensdegree}deg, rgba(${gradiensColorRgba1}, ${gradiensColorRgba2}, ${gradiensColorRgba3}, 0.${gradiensColorRgba4}) 0%, rgba(${gradiensColorRgba5}, ${gradiensColorRgba6}, ${gradiensColorRgba7}, 0.${gradiensColorRgba8}) 10${gradiensdegree2}%)`
+    /*background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%); */
     /* linear-gradient(74deg, rgba(195, 241, 59, 0.672) 8deg, rgba(193, 155, 53, 0.6) 44deg, rgba(53, 195, 672, 0.59) 9deg)*/
     return gradientColor
 }
